@@ -38,13 +38,13 @@
 .card .card-image::after {
     content: "";
     width: 100%;
-    height: 340px;
+    height: 150px;
     background-image: url(./image/card-shadow.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -70px;
+    bottom: 0px;
     left: 0;
     transition: all .5s ease-in-out;
 
