@@ -57,7 +57,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    gap: 40px;
+    gap: 50px;
     /* background-color: #25374ecb; */
     background-color: transparent;
     color: #fff;
@@ -66,7 +66,7 @@
 }
 
 .card-content h1 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .card-content p {
@@ -133,7 +133,7 @@
         width: calc(100% /3 - 20px);
     }
 
-    .flex-card .card:last-child {
+    .flex-card .card:first-child {
         display: none;
     }
 
@@ -172,7 +172,7 @@
         margin-left: 0;
     }
 
-    .flex-card .card:last-child {
+    .flex-card .card:first-child {
         display: block;
     }
 
@@ -215,7 +215,7 @@
         margin-left: 0;
     }
 
-    .flex-card .card:last-child {
+    .flex-card .card:first-child {
         display: block;
     }
 
