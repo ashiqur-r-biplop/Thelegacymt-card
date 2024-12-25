@@ -34,7 +34,7 @@
     height: 100%;
     object-fit: cover;
 } 
-
+ 
 .card .card-image::after {
     content: "";
     width: 100%;
